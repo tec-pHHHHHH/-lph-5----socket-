@@ -1,3 +1,5 @@
+# 代码使用pycharm编译
+
 # 导入socket模块的所有功能（无需逐个指定函数/类，直接使用如socket()、AF_INET等）
 from socket import *
 
@@ -87,4 +89,5 @@ while True:
             break
 
 # 关闭服务器Socket，释放资源
+
 serverSocket.close()
