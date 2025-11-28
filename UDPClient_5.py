@@ -1,5 +1,8 @@
+# 代码使用pycharm编译
+
 # 导入socket模块的所有功能（可直接使用socket相关类和方法，无需前缀）
 from socket import *
+
 
 # 定义服务器的IP地址（127.0.0.1是本地回环地址，用于同一台电脑上的客户端和服务器通信）
 serverName = '127.0.0.1'
@@ -67,4 +70,5 @@ if close_input == 'bye':
         print("服务器已确认断开，连接已释放！")
 
 # 关闭客户端Socket，释放网络资源
+
 clientSocket.close()
